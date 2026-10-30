@@ -1,6 +1,20 @@
 # SpendSmart — Personal Finance Tracker
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel-success?style=for-the-badge&logo=vercel)](https://spend-smart-two-eta.vercel.app/)
+[![React](https://img.shields.io/badge/React-18-blue?style=for-the-badge&logo=react)](https://react.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
+[![Vite](https://img.shields.io/badge/Vite-5-646CFF?style=for-the-badge&logo=vite)](https://vitejs.dev/)
+
+> 🚀 **Live Production App**: **[https://spend-smart-two-eta.vercel.app/](https://spend-smart-two-eta.vercel.app/)**
+
 SpendSmart is a modern, responsive, and privacy-focused personal finance tracking web application built with **React**, **Vite**, **Tailwind CSS**, and **Recharts**. It is engineered to operate 100% offline using browser-local persistence (`localStorage`), requiring zero backend servers, accounts, or cloud databases.
+
+---
+
+## 🔗 Live Application
+
+The project is deployed on Vercel and available to test immediately:
+👉 **[https://spend-smart-two-eta.vercel.app/](https://spend-smart-two-eta.vercel.app/)**
 
 ---
 
@@ -49,6 +63,7 @@ SpendSmart is a modern, responsive, and privacy-focused personal finance trackin
 - **Data Visualizations**: [Recharts 2](https://recharts.org/)
 - **Icons**: [Lucide React](https://lucide.dev/)
 - **Testing**: [Vitest](https://vitest.dev/) & [React Testing Library](https://testing-library.com/)
+- **Deployment**: [Vercel](https://vercel.com/)
 
 ---
 
@@ -203,4 +218,3 @@ interface Budget {
 - **Chart not displaying**: Recharts requires container width and height. Ensure the browser window is sized reasonably and flex containers have explicit heights (`h-64` / `h-72`).
 - **Data missing after browser close**: Check if your browser is configured in "Private/Incognito Mode" or set to auto-clear site cookies/storage upon exit.
 - **Quota Exceeded Error**: Open **Settings & Data**, click **Export JSON Backup**, and reset older months if local storage reaches capacity.
-
